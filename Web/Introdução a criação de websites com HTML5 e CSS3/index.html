@@ -3,22 +3,23 @@
     <head>  <!-- cabeçalho da página --> 
         <meta charset="utf-8">
         <title>Diogo Gomes</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <img src="img/dna.jpg" alt="DNA imagem">
-            <h1>Diogo Gomes: dando Inicio aos estudos</h1>
+            <img src="img/dna.jpg" alt="DNA imagem" class="header_image">
+            <h1 id="title">Diogo Gomes: dando Inicio aos estudos</h1>
         </header>
         <section>
             <header>
-                <h2>Posts</h2>
+                <h2 class="subtitle">Posts</h2>
             </header>
-            <article>
+            <article class="post">
                 <header>
-                    <h3>Post #1</h3>
-                    <img src="img/cromoX.jpg" alt="cromossomo X imagem">
+                    <h3 class="post_title">Post #1</h3>
+                    <img src="img/cromoX.jpg" alt="cromossomo X imagem" class="post_image">
                 </header>
-                <p>
+                <p class="post_content">
                     Mussum Ipsum, <a href="https://mussumipsum.com/" target="_blank"> cacilds vidis litro abertis.
                      Viva Forevis</a> aptent taciti sociosqu ad litora
                       torquent.Mé faiz <a href="mailto:gomes.d.n05@gmail.com">elementum girarzis</a>, nisi eros
@@ -52,4 +53,26 @@
         <img src= caminho da imagem
     <img alt = mostra a descrição da foto como acessibilidade 
 lista agrupa itens <ul> não importa a ordem item 1 item 2
-    <ol> ordena 1. item 1 2. item 2 <li> item da lista-->
+    <ol> ordena 1. item 1 2. item 2 <li> item da lista
+        
+    CSS seletores regras: a, p, h1, h3 ou seja eles são elementos html e dentro das chaves estão as declarações
+a, p, h1, h3{
+    color: blue;
+}
+
+html ID, e classe com class
+no CSS o ID precedido com "." ex: .header
+e classe com o "#" ex: #header-->
+
+<!--Box model
+
+esse elemento tem quatro áreas
+1. margin: são os espaçamentos entre os elementos
+
+2. border: elas circulam o padding e o conteudo assim podemos alterar 
+a largura e cor delas
+
+
+3. padding: é o espaçamento entre a borda e o conteúdo
+
+4.content: é o que o seu bloco representa ex: um texto uma imagem ou um video por exemplo-->
