@@ -1,5 +1,6 @@
 body{
     background: #c7c7c7;
+    font-family: verdana;
 }
 .header_image{
     border-radius: 50%;
@@ -7,6 +8,14 @@ body{
 
 #title, .subtitle, .post_title{
     color: blue;
+}
+#title{
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: line-through;
+    color: black;
 }
 .post_title{
     font-size: 16px;
