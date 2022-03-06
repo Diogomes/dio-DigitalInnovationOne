@@ -37,5 +37,25 @@ public class Metodo {
  *
  *
  *
- *   Nome
- */
+ *   Como utilizar um método
+ *
+ *   nome_da_classe.nome_do_metodo();
+ *   nome_da_classe.nome_do_metodo(...);
+ *
+ *   nome_da_objeto.nome_do_metodo();
+ *   nome_da_objeto.nome_do_metodo(...);
+ *
+ *   ex:
+ *   usuario.getEmail();
+ *   usuario.açterarEndereco(endereco);
+ *
+ *   Math.random();
+ *   Math.sqrt(4);
+ *
+ *
+ * 
+ **/
+
+
+
+
