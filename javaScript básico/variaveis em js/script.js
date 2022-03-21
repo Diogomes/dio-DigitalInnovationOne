@@ -10,3 +10,6 @@ console.log(typeof(numero));
 
 var letras = 'diogo';
 console.log(typeof(letras));
+
+var letras2 = 'diogo';
+console.log(letras2);
